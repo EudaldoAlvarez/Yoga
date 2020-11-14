@@ -706,7 +706,7 @@
 	<div id="follow">
 		<div class="content">
 			<div class="image">
-				<img src="img/follow/perfil.png">
+				<img src="img/follow/perfil.jpg">
 			</div>
 			<div class="social">
 				<div class="name">
