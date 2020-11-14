@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Yoga Fit</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/app.css?v=0.1">
+	<link rel="stylesheet" type="text/css" href="css/app.css?v=5">
 </head>
 <body>
 	<!--====================
@@ -16,15 +16,23 @@
 			</p>
 		</div>	
 		<div class="links">
-			<a href="">
-				Shop For Gift Certificates
-			</a>
-			<a href="">
-				Book Now
-			</a>
-			<p>
-				Call Us:123-123-1234
-			</p>
+			<ul>
+				<li>
+					<a href="">
+						Shop For Gift Certificates
+					</a>
+				</li>
+				<li>
+					<a href="">
+						Book Now
+					</a>
+				</li>
+				<li>
+					<p>
+						Call Us:123-123-1234
+					</p>
+				</li>
+			</ul>
 		</div>
 	<!--====================
 			info-end
@@ -35,16 +43,16 @@
 	<div id="header">
 		<div class="logo">
 			<img src="img/logo.png">
-			<h1>
+			<label>
 				YOGA FIT
-			</h1>
+			</label>
 		</div>
 		<div class="links">
-			<a href="">
+			<a href="#header">
 				HOME
 			</a>
 			*
-			<a href="">
+			<a href="#classes">
 				CLASSES
 			</a>
 			*
@@ -68,8 +76,20 @@
 				CONTACTS
 			</a>
 		</div>
-		<div>
-			
+		<div class="message">
+			<div class="info">
+				<p>
+					<span>Inspiration</span> for Joyful living
+				</p>
+			</div>
+			<div class="boton">
+				<p>
+					The theme is so flexible it does yoga with you
+				</p>
+				<a href="">
+					BOOK NOW
+				</a>
+			</div>
 		</div>
 	</div>
 	<!--====================
@@ -80,9 +100,9 @@
 	======================-->
 	<div id="exp">
 		<div class="titulo">
-			<h1>
+			<label>
 				Experience of Yoga
-			</h1>
+			</label>
 			<h1><span>~</span></h1>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -134,10 +154,13 @@
 				</div>
 			</div>
 			<div class="center">
-				<img src="img/cite/center.png">
+				<img src="img/exp/center.png">
 			</div>
 			<div class="right">
 				<div class="aptitude">
+					<div class="img">
+						<img src="img/exp/eye.png">
+					</div>
 					<div class="info">
 						<h3>
 							Meditation Practice
@@ -146,11 +169,11 @@
 							Cum sociis natoque penatibus et magnis dis parturient mometesmus pro vel nibh et elit.
 						</p>
 					</div>
-					<div class="img">
-						<img src="assets/img/exp/eye.png">
-					</div>
 				</div>
 				<div class="aptitude">
+					<div class="img">
+						<img src="img/exp/medalla.png">
+					</div>
 					<div class="info">
 						<h3>
 							Yoga Month Challenge
@@ -159,11 +182,11 @@
 							Cum sociis natoque penatibus et magnis dis parturient mometesmus pro vel nibh et elit.
 						</p>
 					</div>
-					<div class="img">
-						<img src="assets/img/exp/medalla.png">
-					</div>
 				</div>
 				<div class="aptitude">
+					<div class="img">
+						<img src="img/exp/persons.png">
+					</div>
 					<div class="info">
 						<h3>
 							Yoga Month Challenge
@@ -171,9 +194,6 @@
 						<p>
 							Cum sociis natoque penatibus et magnis dis parturient mometesmus pro vel nibh et elit.
 						</p>
-					</div>
-					<div class="img">
-						<img src="assets/img/exp/persons.png">
 					</div>
 				</div>
 			</div>
@@ -187,73 +207,76 @@
 	======================-->
 	<div id="classes">
 		<div class="bookNow">
-			<h1>
+			<label>
 				Choose Youy Classes and Start Yout Traning
-			</h1>
+			</label>
 			<a href="">
-				<img src="">
+				<img src="img/classes/calendar.png">
 				BOOK NOW!
 			</a>
 		</div>
 		<div class="content">
 			<div class="titulo">
-				<h1>
+				<label>
 					Our Classes
-				</h1>
+				</label>
 			</div>
 			<div class="typesOfClasses">
-				<div class="info">
-					<div class="image">
-						<a href="">
-							<img src="img/classes/1.png">
-						</a>
+				<div class="top">
+					<div class="info">
+						<div class="image">
+							<a href="">
+								<img src="img/classes/1.png">
+							</a>
+						</div>
+						<div class="classTitle">
+							<h4>
+								Private & Group Lessons
+							</h4>
+						</div>
+						<div class="hours">
+							<p>
+								19/05/15-01:00pm-03:00pm
+							</p>
+						</div>
 					</div>
-					<div class="classTitle">
-						<h4>
-							Private & Group Lessons
-						</h4>
+					<div class="info">
+						<div class="image">
+							<a href="">
+								<img src="img/classes/2.png">
+							</a>
+						</div>
+						<div class="classTitle">
+							<h4>
+								Yoga Fit For Beginners
+							</h4>
+						</div>
+						<div class="hours">
+							<p>
+								19/05/15-01:00pm-03:00pm
+							</p>
+						</div>
 					</div>
-					<div class="hours">
-						<p>
-							19/05/15-01:00pm-03:00pm
-						</p>
+					<div class="info">
+						<div class="image">
+							<a href="">
+								<img src="img/classes/3.png">
+							</a>
+						</div>
+						<div class="classTitle">
+							<h4>
+								Yoga For Pregnant
+							</h4>
+						</div>
+						<div class="hours">
+							<p>
+								17/05/15-03:00pm-05:00pm
+							</p>
+						</div>
 					</div>
 				</div>
-				<div class="info">
-					<div class="image">
-						<a href="">
-							<img src="img/classes/2.png">
-						</a>
-					</div>
-					<div class="classTitle">
-						<h4>
-							Yoga Fit For Beginners
-						</h4>
-					</div>
-					<div class="hours">
-						<p>
-							19/05/15-01:00pm-03:00pm
-						</p>
-					</div>
-				</div>
-				<div class="info">
-					<div class="image">
-						<a href="">
-							<img src="img/classes/3.png">
-						</a>
-					</div>
-					<div class="classTitle">
-						<h4>
-							Yoga For Pregnant
-						</h4>
-					</div>
-					<div class="hours">
-						<p>
-							17/05/15-03:00pm-05:00pm
-						</p>
-					</div>
-				</div>
-				<div class="info">
+				<div class="bottom">
+					<div class="info">
 					<div class="image">
 						<a href="">
 							<img src="img/classes/4.png">
@@ -269,72 +292,77 @@
 							19/05/15-01:00pm-03:00pm
 						</p>
 					</div>
+					</div>
+					<div class="info">
+						<div class="image">
+							<a href="">
+								<img src="img/classes/5.png">
+							</a>
+						</div>
+						<div class="classTitle">
+							<h4>
+								YogaFit Core
+							</h4>
+						</div>
+						<div class="hours">
+							<p>
+								19/05/15-01:00pm-03:00pm
+							</p>
+						</div>
+					</div>
+					<div class="info">
+						<div class="image">
+							<a href="">
+								<img src="img/classes/6.png">
+							</a>
+						</div>
+						<div class="classTitle">
+							<h4>
+								YogaFit Restore
+							</h4>
+						</div>
+						<div class="hours">
+							<p>
+								19/05/15-01:00pm-03:00pm
+							</p>
+						</div>
+					</div>
 				</div>
-				<div class="info">
-					<div class="image">
-						<a href="">
-							<img src="img/classes/6.png">
-						</a>
-					</div>
-					<div class="classTitle">
-						<h4>
-							YogaFit Core
-						</h4>
-					</div>
-					<div class="hours">
-						<p>
-							19/05/15-01:00pm-03:00pm
-						</p>
-					</div>
-				</div>
-				<div class="info">
-					<div class="image">
-						<a href="">
-							<img src="img/classes/6.png">
-						</a>
-					</div>
-					<div class="classTitle">
-						<h4>
-							YogaFit Restore
-						</h4>
-					</div>
-					<div class="hours">
-						<p>
-							19/05/15-01:00pm-03:00pm
-						</p>
-					</div>
-				</div>
+				
 			</div>
 		</div>
 	</div>
+	
 	<!--====================
 			classes-end
 	======================-->
-	</div>
+
 	<!--====================
 			cite-start
 	======================-->
 	<div id="cite">
-		<div class="image">
-			<img src="">
-		</div>
-		<div class="info">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-		</div>
-		<div class="reference">
-			<h3>
-				Jonh Dowson
-			</h3>
-			<h5>
-				Bunissesman
-			</h5>
+		<div class="opacity">
+			<div class="image">
+				<img src="img/cite/logo.png">
+			</div>
+			<div class="info">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+			<div class="reference">
+				<h3>
+					Jonh Dowson
+				</h3>
+				<h5>
+					Bunissesman
+				</h5>
+			</div>
 		</div>
 	</div>
 	<!--====================
@@ -351,7 +379,7 @@
 		</div>
 		<div class="table">
 			<table>
-				<tr>
+				<tr class="week">
 					<td>
 					</td>
 					<td>
@@ -367,6 +395,11 @@
 					<td>
 						<strong>
 							Wednesday
+						</strong>
+					</td>
+					<td>
+						<strong>
+							Thursday
 						</strong>
 					</td>
 					<td>
@@ -389,316 +422,276 @@
 					<td class="hour">
 						09:00
 					</td>
-					<td>
-						<div class="Lily">
-							<p>
-								<strong>
-									Monring Flow
-								</strong>
-								Advanced Sequence
-							</p>
+					<td class="Lily">
+						<p>
 							<strong>
-								09.00-11.00
+								Monring Flow
 							</strong>
-							Lily Carter
-						</div>
+							Advanced Sequence
+						</p>
+						<strong>
+							09.00-11.00
+						</strong>
+						Lily Carter
 					</td>
-					<td>
-						<div class="Grace">
-							<p>
-								<strong>
-									Kundalini Yoga
-								</strong>
-								Basic Kundalini
-							</p>
+					<td class="Grace">
+						<p>
 							<strong>
-								09.00-11.00
+								Kundalini Yoga
 							</strong>
-							Grace Dean
-						</div>
+							Basic Kundalini
+						</p>
+						<strong>
+							09.00-11.00
+						</strong>
+						Grace Dean
 					</td>
-					<td>
-						<div class="Lily">
-							<p>
-								<strong>
-									Monring Flow
-								</strong>
-								Advanced Sequence
-							</p>
+					<td class="Lily">
+						<p>
 							<strong>
-								09.00-11.00
+								Monring Flow
 							</strong>
-							Lily Carter
-						</div>
+							Advanced Sequence
+						</p>
+						<strong>
+							09.00-11.00
+						</strong>
+						Lily Carter
+					</td>				
+					<td class="Grace">
+						<p>
+							<strong>
+								Kundalini Yoga
+							</strong>
+							Basic Kundalini
+						</p>
+						<strong>
+							09.00-11.00
+						</strong>
+						Grace Dean
 					</td>
-					<td>
-						<div class="Grace">
-							<p>
-								<strong>
-									Kundalini Yoga
-								</strong>
-								Basic Kundalini
-							</p>
+					<td class="Lily">
+						<p>
 							<strong>
-								09.00-11.00
+								Monring Flow
 							</strong>
-							Grace Dean
-						</div>
+							Advanced Sequence
+						</p>
+						<strong>
+							09.00-11.00
+						</strong>
+						Lily Carter
 					</td>
-					<td>
-						<div class="Lily">
-							<p>
-								<strong>
-									Monring Flow
-								</strong>
-								Advanced Sequence
-							</p>
+					<td class="Grace">
+						<p>
 							<strong>
-								09.00-11.00
+								Kundalini Yoga
 							</strong>
-							Lily Carter
-						</div>
+							Basic Kundalini
+						</p>
+						<strong>
+							09.00-11.00
+						</strong>
+						Grace Dean
 					</td>
-					<td>
-						<div class="Grace">
-							<p>
-								<strong>
-									Kundalini Yoga
-								</strong>
-								Basic Kundalini
-							</p>
+					<td class="Lily">
+						<p>
 							<strong>
-								09.00-11.00
+								Monring Flow
 							</strong>
-							Grace Dean
-						</div>
-					</td>
-					<td>
-						<div class="Lily">
-							<p>
-								<strong>
-									Monring Flow
-								</strong>
-								Advanced Sequence
-							</p>
-							<strong>
-								09.00-11.00
-							</strong>
-							Lily Carter
-						</div>
+							Advanced Sequence
+						</p>
+						<strong>
+							09.00-11.00
+						</strong>
+						Lily Carter
 					</td>
 				</tr>
 				<tr>
 					<td class="hour">
 						10:00
 					</td>
-					<td>
-						<div class="Sophia">
-							<p>
-								<strong>
-									Ashtanga Yoga
-								</strong>
-								Weight Loss
-							</p>
+					<td class="Sophia">
+						<p>
 							<strong>
-								10.00-11.00
+								Ashtanga Yoga
 							</strong>
-							Sophia Keat
-						</div>
+							Weight Loss
+						</p>
+						<strong>
+							10.00-11.00
+						</strong>
+						Sophia Keat
 					</td>
 					<td>
 					</td>
-					<td>
-						<div class="Sophia">
-							<p>
-								<strong>
-									Ashtanga Yoga
-								</strong>
-								Weight Loss
-							</p>
+					<td class="Sophia">
+						<p>
 							<strong>
-								10.00-11.00
+								Ashtanga Yoga
 							</strong>
-							Sophia Keat
-						</div>
+							Weight Loss
+						</p>
+						<strong>
+							10.00-11.00
+						</strong>
+						Sophia Keat
 					</td>
 					<td>
 					</td>
-					<td>
-						<div class="Sophia">
-							<p>
-								<strong>
-									Ashtanga Yoga
-								</strong>
-								Weight Loss
-							</p>
+					<td class="Sophia">
+						<p>
 							<strong>
-								10.00-11.00
+								Ashtanga Yoga
 							</strong>
-							Sophia Keat
-						</div>
+							Weight Loss
+						</p>
+						<strong>
+							10.00-11.00
+						</strong>
+						Sophia Keat
 					</td>
 					<td>
 					</td>
-					<td>
-						<div class="Sophia">
-							<p>
-								<strong>
-									Ashtanga Yoga
-								</strong>
-								Weight Loss
-							</p>
+					<td class="Sophia">
+						<p>
 							<strong>
-								10.00-11.00
+								Ashtanga Yoga
 							</strong>
-							Sophia Keat
-						</div>
+							Weight Loss
+						</p>
+						<strong>
+							10.00-11.00
+						</strong>
+						Sophia Keat
 					</td>
 				</tr>
 				<tr>
 					<td class="hour">
 						11:00
 					</td>
-					<td>
-						<div class="Grace">
-							<p>
-								<strong>
-									Kundalini Yoga
-								</strong>
-								Basic Kundalini
-							</p>
+					<td class="Grace">
+						<p>
 							<strong>
-								09.00-11.00
+								Kundalini Yoga
 							</strong>
-							Grace Dean
-						</div>
+							Basic Kundalini
+						</p>
+						<strong>
+							09.00-11.00
+						</strong>
+						Grace Dean
 					</td>
-					<td>
-						<div class="Daniel">
-							<p>
-								<strong>
-									Yoga Dance
-								</strong>
-								Cardio Fit
-							</p>
+					<td class="Daniel">
+						<p>
 							<strong>
-								11.00-12.00
+								Yoga Dance
 							</strong>
-							Daniel Brooks
-						</div>
+							Cardio Fit
+						</p>
+						<strong>
+							11.00-12.00
+						</strong>
+						Daniel Brooks
 					</td>
 					<td>
 					</td>
-					<td>
-						<div class="Daniel">
-							<p>
-								<strong>
-									Yoga Dance
-								</strong>
-								Cardio Fit
-							</p>
+					<td class="Daniel">
+						<p>
 							<strong>
-								11.00-12.00
+								Yoga Dance
 							</strong>
-							Daniel Brooks
-						</div>
+							Cardio Fit
+						</p>
+						<strong>
+							11.00-12.00
+						</strong>
+						Daniel Brooks
 					</td>
 					<td>
 					</td>
-					<td>
-						<div class="Daniel">
-							<p>
-								<strong>
-									Yoga Dance
-								</strong>
-								Cardio Fit
-							</p>
+					<td class="Daniel">
+						<p>
 							<strong>
-								11.00-12.00
+								Yoga Dance
 							</strong>
-							Daniel Brooks
-						</div>
+							Cardio Fit
+						</p>
+						<strong>
+							11.00-12.00
+						</strong>
+						Daniel Brooks
 					</td>
-					<td>
-						<div class="Grace">
-							<p>
-								<strong>
-									Kundalini Yoga
-								</strong>
-								Basic Kundalini
-							</p>
+					<td class="Grace">
+						<p>
 							<strong>
-								09.00-11.00
+								Kundalini Yoga
 							</strong>
-							Grace Dean
-						</div>
+							Basic Kundalini
+						</p>
+						<strong>
+							09.00-11.00
+						</strong>
+						Grace Dean
 					</td>
 				</tr>
 				<tr>
 					<td class="hour">
 						12:00
 					</td>
-					<td>
-						<div class="Mary">
-							<p>
-								<strong>
-									Hatha Yoga
-								</strong>
-								Weekend Class
-							</p>
+					<td class="Mary">
+						<p>
 							<strong>
-								12.00-13.00
+								Hatha Yoga
 							</strong>
-							Mary Sheldon
-						</div>
+							Weekend Class
+						</p>
+						<strong>
+							12.00-13.00
+						</strong>
+						Mary Sheldon
 					</td>
 					<td>
 					</td>
-					<td>
-						<div class="Mary">
-							<p>
-								<strong>
-									Hatha Yoga
-								</strong>
-								Weekend Class
-							</p>
+					<td class="Mary">
+						<p>
 							<strong>
-								12.00-13.00
+								Hatha Yoga
 							</strong>
-							Mary Sheldon
-						</div>
+							Weekend Class
+						</p>
+						<strong>
+							12.00-13.00
+						</strong>
+						Mary Sheldon
 					</td>
 					<td>
 					</td>
-					<td>
-						<div class="Mary">
-							<p>
-								<strong>
-									Hatha Yoga
-								</strong>
-								Weekend Class
-							</p>
+					<td class="Mary">
+						<p>
 							<strong>
-								12.00-13.00
+								Hatha Yoga
 							</strong>
-							Mary Sheldon
-						</div>
+							Weekend Class
+						</p>
+						<strong>
+							12.00-13.00
+						</strong>
+						Mary Sheldon
 					</td>
 					<td>
 					</td>
-					<td>
-						<div class="Mary">
-							<p>
-								<strong>
-									Hatha Yoga
-								</strong>
-								Weekend Class
-							</p>
+					<td class="Mary">
+						<p>
 							<strong>
-								12.00-13.00
+								Hatha Yoga
 							</strong>
-							Mary Sheldon
-						</div>
+							Weekend Class
+						</p>
+						<strong>
+							12.00-13.00
+						</strong>
+						Mary Sheldon
 					</td>
 				</tr>
 			</table>
@@ -712,8 +705,8 @@
 	======================-->
 	<div id="follow">
 		<div class="content">
-			<div class="imgage">
-				
+			<div class="image">
+				<img src="img/follow/perfil.png">
 			</div>
 			<div class="social">
 				<div class="name">
